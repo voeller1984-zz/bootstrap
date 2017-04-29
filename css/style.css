@@ -1,0 +1,59 @@
+
+
+.nopadding {
+	padding: 0px;
+}
+
+.logo {
+	max-height: 100px;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	color: #2d3c49;
+	font-weight: 100;
+
+}
+h2 {
+	font-size: 20px;
+}
+h3 {
+	font-size: 15px;
+}
+
+hr{
+	background-color: #7d97ad;
+	height:3px;
+}
+
+.title-extra {
+	font-size: 4vmax;
+}
+.subtitle {
+	font-size: 20px;
+}
+.text-muted {
+	color: #7d97ad;
+}
+
+.text-thin {
+	font-weight: 100;
+}
+
+/* define different font sizes for the title with media queries*/
+@media screen and (min-width : 1000px) {
+	h2 {
+	font-size: 24px;
+	}
+	h3 {
+		font-size: 20px;
+	}
+	.title-extra {
+		font-size: 40px;
+	}
+
+	.title-logo {
+	margin-top: 10px;
+	}	
+}
+
