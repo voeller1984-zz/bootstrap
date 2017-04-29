@@ -6,6 +6,7 @@
 
 .logo {
 	max-height: 100px;
+	max-width: 125px;
 }
 
 body {
@@ -22,9 +23,13 @@ h3 {
 	font-size: 15px;
 }
 
-hr{
+hr {
 	background-color: #7d97ad;
 	height:3px;
+}
+
+img {
+	width: 100vw;
 }
 
 /* handle too long links with an ellipsis*/
